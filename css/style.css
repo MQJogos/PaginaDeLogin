@@ -1,1 +1,40 @@
-
+*{
+   margin:0;
+   padding:0;
+}
+body{
+      background-image: url(cafe.jpeg);
+      background-size: cover;
+}
+.container{
+    position: absolute;
+    width: auto;
+    height: auto; 
+    top: calc(50% - 240px);
+    left: calc(50% - 160px);
+}
+form{
+     position: absolute;
+     text-align: center;
+     background: white;
+     width: 310px;
+     height: 470px;
+     border-radius: 5px;
+     padding: 30px 20px 0 20px;
+     box-shadow: 0 10px 50px 0 rgba(0,0,0,0.25);
+     box-sizing: border-box;
+}
+p{
+   font-family: tahoma;
+   font-weight: 100;
+   text-transform: uppercase;
+   font-size: 12px;
+   color:#87613d;
+   margim-bottom: 40px;
+}
+p > span{
+    padding-top: 3px;
+    display: block;
+    font-weight: 400;
+    font-size: 9px;
+}
