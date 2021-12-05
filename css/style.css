@@ -38,3 +38,25 @@ p > span{
     font-weight: 400;
     font-size: 9px;
 }
+h3{
+    font-family: tahoma;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #87613d;
+    margim-bottom: 30px;
+}
+input,button{
+    outline: none !important;
+}
+button.fb{
+    border: none;
+    background: #3b5998;
+    width: 160px;
+    height: 25px;
+    font-family: tahoma;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: 1px solid #29487d;
+}
