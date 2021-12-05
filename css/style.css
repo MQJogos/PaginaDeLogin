@@ -143,3 +143,57 @@ inactive-sx{
     animation-duration: 0.9s;
     animation-fill-mode: forwards;    
 }
+@keyframes overshadowing-dx{
+    0%{
+        z-index: 2;
+        transform: perspective(100px) translated3d(0px, 0px, 0px);
+        opacity: 1;
+        box-shadow:0 10px 50px 0 rgba(0,0,0,0.25);
+    }
+    100%{
+        z-index: 1;
+        transform: perspective(100px) translated3d(0px, 0px, -30px);
+        opacity: 0.5;
+        box-shadow:0 10px 20px 0 rgba(0,0,0,0.25);
+    }
+
+}
+
+@keyframes overshadowing-sx{
+    0%{
+        z-index: 2;
+        transform: perspective(100px) translated3d(0px, 0px, 0px);
+        opacity: 1;
+        box-shadow:0 10px 50px 0 rgba(0,0,0,0.25);
+    }
+    100%{
+        z-index: 1;
+        transform: perspective(100px) translated3d(0px, 0px, -30px);
+        opacity: 0.5;
+        box-shadow:0 10px 20px 0 rgba(0,0,0,0.25);
+    }
+}
+
+
+
+@keyframes foregrounding-dx{
+    0%{
+        z-index: 1;
+        transform: perspective(100px) translated3d(100px, 0px, -30px);
+        opacity: 0.5;
+        
+    }
+    50%{
+        z-index: 2;
+        transform: perspective(100px) translated3d(400px, 0px, -30px);
+        
+        
+    }
+    100%{
+        z-index: 2;
+        transform: perspective(100px) translated3d(400px, 0px, 0px);
+        opacity:1;
+        
+    }
+
+}
