@@ -145,7 +145,7 @@ input{
     animation-duration: 0.9s;
     animation-fill-mode: forwards;    
 }
-inactive-sx{
+.inactive-sx{
     animation-name: overshadowing-sx;
     animation-duration: 0.9s;
     animation-fill-mode: forwards;    
@@ -159,7 +159,7 @@ inactive-sx{
     }
     100%{
         z-index: 1;
-        transform: perspective(100px) translated3d(0px, 0px, -30px);
+        transform: perspective(100px) translated3d(100px, 0px, -30px);
         opacity: 0.5;
         box-shadow:0 10px 20px 0 rgba(0,0,0,0.25);
     }
@@ -175,7 +175,7 @@ inactive-sx{
     }
     100%{
         z-index: 1;
-        transform: perspective(100px) translated3d(0px, 0px, -30px);
+        transform: perspective(100px) translated3d(100px, 0px, -30px);
         opacity: 0.5;
         box-shadow:0 10px 20px 0 rgba(0,0,0,0.25);
     }
@@ -198,7 +198,7 @@ inactive-sx{
     }
     100%{
         z-index: 2;
-        transform: perspective(100px) translated3d(400px, 0px, 0px);
+        transform: perspective(100px) translated3d(0px, 0px, 0px);
         opacity:1;
         
     }
