@@ -3,8 +3,15 @@
    padding:0;
 }
 body{
-      background-image: url(cafe.jpeg);
+      background-image: url("background.jpg"); 
+      background-repeat: no-repeat;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
       background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      
 }
 .container{
     position: absolute;
