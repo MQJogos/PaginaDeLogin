@@ -77,3 +77,69 @@ button.form-btn{
     text-transform: uppercase;
     cursor: pointer;
 }
+button.form-btn.sx{
+    left: 0;
+    border-radius: 0 0 0 5px;
+    background-color: #34495e;
+    color: white;
+    transition: all 0.3s linear;
+}
+button.form-btn.sx:hover{
+    background-color: #457aaf;
+    color: white;
+}
+button.form-btn.sx.back{
+    background-color: #34495e;
+    transition: all 0.3s linear;
+}
+button.form-btn.sx.back:hover{
+    background-color: #457aaf;
+}
+button.form-btn.dx{
+    right: 0;
+    border-radius: 0 0 5px 0;
+    background-color: #ff7d00;  
+}
+input{
+      border: none;
+      border-bottom: 1px solid #ffc185;
+      width: 85%;
+      font-family: tahoma;
+      color: #ff7d00;
+      text-align: center;
+      font-size: 21px;
+      font-weight: 100;
+      margim-bottom: 25px;
+}
+.signin input,
+.signup .w100{
+     width:100%;
+}
+.signin{
+    z-index: 1;
+    transform: perspective(100px) translate3d(100px, 0px, -30px);
+    opacity: 0.5;
+}
+.signup{
+    z-index: 2;
+}
+.active-dx{
+    animation-name: foregrounding-dx;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;    
+}
+.active-sx{
+    animation-name: foregrounding-sx;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;    
+}
+.inactive-dx{
+    animation-name: overshadowing-dx;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;    
+}
+inactive-sx{
+    animation-name: overshadowing-sx;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;    
+}
