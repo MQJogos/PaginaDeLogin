@@ -55,7 +55,22 @@
        
        </form>
     </div>
-       
+    <script>
+        $(".log-in").click(function(){
+          $(".signin").addClass("active-dx");
+          $(".signup").addClass("inactive-sx");
+          $(".signup").removeClass("active-sx");
+          $(".signin").removeClass("inactive-dx");
+        });
+        
+       $(".back").click(function(){
+          $(".signup").addClass("active-sx");
+          $(".signin").addClass("inactive-dx");
+          $(".signin").removeClass("active-dx");
+          $(".signup").removeClass("inactive-sx");
+        });
+
+    </script>  
  </body> 
  </html>
 
