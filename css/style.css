@@ -1,9 +1,9 @@
 body{ 
       margin:0;
       padding:0;
-      background: url("background.jpg"); 
-      background-repeat: no-repeat;
+      background: url("background.jpg");
       background-size: cover;
+      background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
       
@@ -125,6 +125,8 @@ input{
 .signup{
     z-index: 2;
 }
+
+
 .active-dx{
     animation-name: foregrounding-dx;
     animation-duration: 0.9s;
